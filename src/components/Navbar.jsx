@@ -18,7 +18,7 @@ function Navigation() {
             </i>
           </Nav>
           <Navbar.Brand href="/home" className="mt-3 text">
-            Happy Cake <span>🍰</span>
+            Invimu <span>🍰</span>
           </Navbar.Brand>
         </Container>
       </Navbar>
