@@ -5,6 +5,10 @@ import Form from 'react-bootstrap/Form';
 
 export default function Contacto() {
   return (
-    <div style="margin: 10px; background-color: red; color: white; width: auto">Instrumentos</div>
+    <div className='d-flex flex-column justify-content-center align-items-center mt-5'>
+        <h1>Bienvenido a <span className='negrita'>Invimu</span> </h1>
+        <p>Instrumento Musical Virtual</p>
+             
+    </div>
   )
 }

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Navigation() {
   return (
     <div>
-      <Navbar bg="danger" variant="dark">
+      <Navbar bg="info" variant="dark">
         <Container>
           <Nav className="me-auto p-1 text">
             <i class="bx bx-home icon mt-3 d-flex flex-row link">
@@ -15,6 +15,9 @@ function Navigation() {
             </i>
             <i class="bx bxs-contact icon mt-3 ms-3 d-flex flex-row link">
               <Link to="/contacto" className="link">📒 Contacto</Link>
+            </i>
+            <i class="bx bx-home icon mt-3 d-flex flex-row link">
+              <Link to="/instrumento" className="link"> 🎸 Instrumentos</Link>
             </i>
           </Nav>
           <Navbar.Brand href="/home" className="mt-3 text">

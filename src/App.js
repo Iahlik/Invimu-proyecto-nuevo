@@ -4,6 +4,7 @@ import Navigation from "./components/Navbar";
 
 import Home from "./views/Home";
 import Contacto from "./views/Contacto";
+import Instrumentos from "./views/Instrumentos";
 import NotFound from "./views/NotFound";
 
 
@@ -15,7 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/contacto" element={<Contacto />} />
-        <Route path="/instrumentos" element={<Instrumentos />} />
+        <Route path="/instrumento" element={<Instrumentos />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
